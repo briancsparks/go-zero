@@ -137,7 +137,7 @@ func cwdGoZeroPath() {
 			fmt.Printf("Failed to change directory: %v\n", err)
 			os.Exit(1)
 		}
-		fmt.Printf("Changed working directory to: %s\n", gozeroPath)
+		//fmt.Printf("Changed working directory to: %s\n", gozeroPath)
 	} else {
 		fmt.Println("GOZERO_PWD environment variable is not set.")
 	}
