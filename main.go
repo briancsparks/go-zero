@@ -51,7 +51,7 @@ func main2() (int, error) {
 
 	repo, remote, err := gitRepoRemote()
 	if err != nil {
-		return 9, err
+		return 9, fmt.Errorf("error getting repo/remote: %w", err)
 	}
 	_ = repo
 
